@@ -10,6 +10,15 @@ namespace ApiBurguer.Data {
             
         }
         public DbSet<Pao> Paes {get;set;}
+
+        public DbSet<Molho> Molhos {get;set;}
+
+        public DbSet<Carne> Carnes {get;set;}
+
+        public DbSet<Bebida> Bebidas {get;set;}
+
+        public DbSet<Acompanhamento> Acompanhamentos {get;set;}
+        
     }
 
 }
